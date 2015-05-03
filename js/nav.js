@@ -30,7 +30,29 @@ $(document).ready(function() {
 	var gameList = getGameList();
 	for(var game in gameList) {
 		console.log(gameList[game].name);
-		table.append("<div class=col-md-2><p>" + gameList[game].name + "</p></div>");
+		table.append("<div class='game-cell col-md-3 thumb'>" +
+					 	"<div class='row'>" +
+					 		"<div class='col-xs-6'>" +
+								"<img class='game-img img-responsive' src='img/" + gameList[game].img + "'/>" +
+							"</div>" +
+							"<div class='col-xs-6'>" +
+								"<p class='lead'>" + gameList[game].name + "</p>" +
+								"<p class='text-left'><strong>Devs:</strong> " + gameList[game].devs + "</p>" +
+								"<p class='text-left'><strong>Event:</strong> " + gameList[game].event + "</p>" +
+								"<div class='row'>" +
+									"<div class='col-xs-6'>" +
+										"<a href='" + gameList[game].download + "'>" +
+											"<img class='img-responsive' src='img/github.png'/>" +
+										"</a>" +
+									"</div>" +
+									"<div class='col-xs-6'>" +
+										"<a href='" + gameList[game].src + "'>" +
+											"<img class='img-responsive' src='img/download.png'/>" +
+										"</a>" +
+									"</div>" +
+							"</div>" +
+						"</div>" +
+					 "</div>");
 	}
 
 });
