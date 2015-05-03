@@ -1,5 +1,21 @@
 "use strict";
 
+function getGameList() {
+	var gameList = [];
+	$.ajaxSetup({
+		async: false
+	});
+	$.getJSON("data/games.json", function(data) {
+		for(var game in data.games) {
+			$.getJSON("data/games/" + data.games[game] + ".json", function(data) {
+				gameList.push(data);
+			});
+		}
+	});
+	console.log("Got game list, size: " + gameList.length);
+	return gameList;
+}
+
 $(document).ready(function() {
 
 	$(".nav-item").click(function() {
@@ -9,4 +25,12 @@ $(document).ready(function() {
 		$(this).addClass("active");
 		$("#myCarousel").carousel($(this).index());
 	});
+
+	var table = $(".row");
+	var gameList = getGameList();
+	for(var game in gameList) {
+		console.log(gameList[game].name);
+		table.append("<div class=col-md-2><p>" + gameList[game].name + "</p></div>");
+	}
+
 });
