@@ -157,9 +157,14 @@ body {
 	background-color: #303030;
 }
 
+.game-cell {
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
 .game-img {
 	padding: 0px;
-	border: 2px solid black;
+	border: 1px solid white;
 }
 
 /*
