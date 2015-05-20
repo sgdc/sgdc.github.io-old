@@ -1,0 +1,32 @@
+<div class='game-cell col-md-3 thumb'>
+	<div class='row'>
+		<div class='col-xs-6'>
+			<img class='game-img img-responsive' src='img/{{img}}'/>
+		</div>
+		<div class='col-xs-6'>
+			<p class='h4'>{{name}}</p>
+			<p><strong>Devs</strong></p>
+			{{#devs}}
+				<p>{{.}}</p>
+			{{/devs}}
+			<p><strong>Event</strong></p>
+			<p>{{event}}</p>
+			<div class='row'>
+				<div class='col-xs-6'>
+					{{#download}}
+						<a href='{{download}}' target='_blank'>
+							<img class='img-responsive' src='img/download.png'/>
+						</a>
+					{{/download}}
+				</div>
+				<div class='col-xs-6'>
+					{{#src}}
+						<a href='{{src}}' target='_blank'>
+							<img class='img-responsive' src='img/github.png'/>
+						</a>
+					{{/src}}
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>
