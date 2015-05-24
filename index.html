@@ -65,6 +65,28 @@
         </div>
     </header>
 
+	<!-- modal for displaying game info -->
+	<div id="gameInfoDialog" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg">
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="game-txt modal-title"></h4>
+		  </div>
+		  <div class="modal-body row">
+		  </div>
+		  <div class="modal-footer">
+			<div style="float:left">
+				<a href="#" id="play-btn" class="btn btn-default" role="button" target="_blank">Play</a>
+				<a href="#" id="src-btn" class="btn btn-default" role="button" target="_blank">Source</a>
+			</div>
+
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -1,5 +1,7 @@
 "use strict";
 
+var gameList;
+
 function getGameList() {
 	var gameList = [];
 	$.ajaxSetup({
@@ -26,13 +28,36 @@ $(document).ready(function() {
 	});
 
 	var table = $(".row");
-	var gameList = getGameList();
-	$.get('mustache/game.mustache.html', function(template){
+	gameList = getGameList();
+	$.get('mustache/gamebox.mustache.html', function(template){
 		Mustache.parse(template);
-		for(var game in gameList) {
-			console.log(gameList[game].name);
-			table.append(Mustache.render(template, gameList[game]));
+		for(var i = 0; i < gameList.length; i++) {
+			gameList[i].idx = i; // set idx of game in game list
+			table.append(Mustache.render(template, gameList[i]));
 		}
+	});
+
+	// on click for game boxes on catalog page
+	$(".game-box").click(function() {
+		var game = gameList[parseInt($(this).attr("data-id"))];
+		$.get('mustache/game.mustache.html', function(template){
+			$(".modal-title").text(game.name);
+			$(".modal-body").html(Mustache.render(template, game));
+			if(game.download) {
+				$("#play-btn").prop('disabled', false);
+				$("#play-btn").attr("href", game.download);
+			}
+			else {
+				$("#play-btn").prop('disabled', true);
+			}
+			if(game.src) {
+				$("#src-btn").prop('disabled', false);
+				$("#src-btn").attr("href", game.src);
+			}
+			else {
+				$("#src-btn").prop('disabled', true);
+			}
+		});
 	});
 
 });

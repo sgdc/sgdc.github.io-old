@@ -157,14 +157,18 @@ body {
 	background-color: #303030;
 }
 
-.game-cell {
-	padding-right: 7px;
-	padding-left: 7px;
-}
-
 .game-img {
 	padding: 0px;
 	border: 1px solid white;
+}
+
+.game-txt {
+	color: black;
+}
+
+a.thumbnail {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
 }
 
 /*
