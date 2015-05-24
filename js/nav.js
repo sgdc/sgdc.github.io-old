@@ -44,18 +44,18 @@ $(document).ready(function() {
 			$(".modal-title").text(game.name);
 			$(".modal-body").html(Mustache.render(template, game));
 			if(game.download) {
-				$("#play-btn").prop('disabled', false);
+				$("#play-btn").removeClass('disabled', false);
 				$("#play-btn").attr("href", game.download);
 			}
 			else {
-				$("#play-btn").prop('disabled', true);
+				$("#play-btn").addClass('disabled', true);
 			}
 			if(game.src) {
-				$("#src-btn").prop('disabled', false);
+				$("#src-btn").removeClass('disabled', false);
 				$("#src-btn").attr("href", game.src);
 			}
 			else {
-				$("#src-btn").prop('disabled', true);
+				$("#src-btn").addClass('disabled', true);
 			}
 		});
 	});
