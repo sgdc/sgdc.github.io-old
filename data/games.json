@@ -1,12 +1,12 @@
 {
 	"games": ["a-tempo",
-			  "castle point purge",
+			  "castlePointPurge",
 			  "freeze",
 			  "juliet",
-			  "life after prison",
+			  "lifeAfterPrison",
 			  "magnemaze",
 			  "mate-for-life",
-			  "noise source",
+			  "noiseSource",
 			  "obj_char",
 			  "opaf",
 			  "ricochet",
@@ -14,6 +14,6 @@
 			  "skyrunner",
 			  "snogger",
 			  "spherical-saunter",
-			  "super shower scrubs,"
+			  "superShowerScrubs,"
 			  "temporal-rift"]
 }
