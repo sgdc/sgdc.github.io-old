@@ -3,5 +3,7 @@
 	"desc": "Magnemaze is a mobile puzzle game by Shower Thoughts Development. Play as a magnetic ball and change the polarity of the room to move! Download for free on Google Play Store or Amazon App Store!",
 	"devs": ["Kevin Quigley", "Brian Intile", "Adam Gincel"],
 	"event": "Fall 2013 GameJam",
-	"img": "magnemaze.jpg"
+	"img": "magnemaze.jpg",
+	"google": "https://play.google.com/store/apps/details?id=com.stdev.magnemaze.android&hl=en",
+	"amazon": "http://www.amazon.com/Shower-Thoughts-Development-Magnemaze/dp/B00RNRHE9I/ref=sr_1_1?ie=UTF8&qid=1420222127&sr=8-1&keywords=magnemaze"
 }
