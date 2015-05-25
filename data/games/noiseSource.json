@@ -1,0 +1,7 @@
+{
+	"name": "Noise Source",
+	"desc": "Noise Source is a retro arcade shooter game that was designed to be used as a learning aid for the first SGDC Learn Jam. With a handful of modifications, it was transformed into a game used to earn points in the Stevens Gear and Triangle R.A.G.E. event (hence the grade selection). Pilot your fighter as your attempt to rid the campus of the source of unbearable noises from above.",
+	"devs": ["Kevin Quigley", "James Romph", "Adam Gincel"],
+	"event": "Fall 2014 Learn Jam I/R.A.G.E. 2014",
+	"img": "noiseSource.jpg"
+}
