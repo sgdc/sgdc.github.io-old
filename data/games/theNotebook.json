@@ -1,0 +1,8 @@
+{
+	"name": "The Notebook",
+	"desc": "The Notebook is an atmospheric platformer in which you explore the notebook of Allen Griffen. The game was not completed due to time restraints, but it still offers a few levels of concept design.",
+	"devs": ["Kevin Quigley"],
+	"event": "Spring 2015 Game Jam IV",
+	"img": "theNotebook.jpg",
+	"download": "https://drive.google.com/file/d/0BxUwM3q0V1obV1FlOUNFeDZzZkk/view"
+}
