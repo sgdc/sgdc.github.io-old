@@ -3,5 +3,6 @@
 	"desc": "obj_char is a 2D puzzle platformer by Shower Thoughts Development that won an SGDC 1-week Game Jam. Play as obj_char, the sentient stand-in sprite and destroy the game before the developers delete you.",
 	"devs": ["Kevin Quigley", "Brian Intile", "Jake Dellaria"],
 	"event": "Spring 2014 GameJam",
-	"img": "obj_char.jpg"
+	"img": "obj_char.jpg",
+	"download": "https://drive.google.com/a/stevens.edu/file/d/0BzPiiG-FiXoIM2RBdmRMZjNvMGs/"
 }
