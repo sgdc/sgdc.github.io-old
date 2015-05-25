@@ -2,13 +2,23 @@
 	<img class='img-responsive' src='img/{{img}}'/>
 	<p class='game-txt h4'>{{name}}</p>
 </div>
-<div class='col-xs-4'>
-	<p class='game-txt'><strong>Devs</strong></p>
-	{{#devs}}
-		<p class='game-txt'>{{.}}</p>
-	{{/devs}}
-</div>
-<div class='col-xs-4'>
-	<p class='game-txt'><strong>Event</strong></p>
-		<p class='game-txt'>{{event}}</p>
+<div class='col-xs-8'>
+	<div class='row'>
+		<div class='col-xs-6'>
+			<p class='game-txt'><strong>Devs</strong></p>
+			{{#devs}}
+				<p class='game-txt'>{{.}}</p>
+			{{/devs}}
+		</div>
+		<div class='col-xs-6'>
+			{{#event}}
+				<p class='game-txt'><strong>Event</strong></p>
+				<p class='game-txt'>{{event}}</p>
+			{{/event}}
+		</div>
+	</div>
+	{{#desc}}
+		<p class='game-txt'><strong>Description</strong></p>
+		<p class='game-txt'>{{desc}}</p>
+	{{/desc}}
 </div>

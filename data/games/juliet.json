@@ -1,0 +1,7 @@
+{
+	"name": "Juliet",
+	"desc": "Juliet is a Shower Thoughts Development Android title made for GMCJAM17. Play as Juliet, a girl who can only move in sync with her clones as you navigate through challenging puzzles. Use your clones to help you reach the goal in each level; hopefully at least one of you can survive. Download free on Play Store!",
+	"devs": ["Kevin Quigley", "Brian Intile", "Robyn Verrill", "Adam Gincel"],
+	"event": "GMCJAM17",
+	"img": "juliet.jpg"
+}

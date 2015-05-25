@@ -1,0 +1,7 @@
+{
+	"name": "SkyRunner",
+	"desc": "SkyRunner is a mobile game by SGDC alumni Frank DiCola and Jack Kelly. Run on walls in this endless runner and compete for the high score! Download for free on Google Play Store and Apple App Store!",
+	"devs": ["Frank DiCola", "Jack Kelly"],
+	"img": "sky-runner.jpg",
+	"event": "Kii to Unity Contest"
+}

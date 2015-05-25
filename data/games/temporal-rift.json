@@ -1,0 +1,8 @@
+{
+	"name": "Temporal Rift",
+	"img": "temporal-rift.png",
+	"desc": "Temporal Rift is a game made for Games++ 2015 by myself and my younger brother and sister. My brother helped modify art assets so they could be used for our purposes and my sister made level music for the first 2 levels and made level music for levels 3 and 4. There is no exit in level 4. Play as a time traveler whose time travel device cannot gain enough power to boost him back to his own time in this 2D platformer.",
+	"devs": ["Kevin Quigley", "Michael Quigley", "Sarah Quigley"],
+	"event": "Games++ 2015",
+	"download": "http://griffengames.blogspot.com/p/temporal-rift.html"
+}

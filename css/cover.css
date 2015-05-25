@@ -19,6 +19,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.btn-info {
+  background-color: #777;
+  border: 1px solid #fff;
+}
 
 /*
  * Base structure
@@ -156,17 +160,58 @@ body {
  * Game Grid
  */
 
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #555;
+	border: 1px solid #777;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #777;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+
 #second-slide {
 	padding-top: 7%;
 	background: url("../img/escheresque_ste.png") repeat;
-}
-
-.game-img {
-	padding: 0px;
-	border: 1px solid black;
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .game-txt {
@@ -199,7 +244,7 @@ a.thumbnail {
  * Affix and center
  */
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;

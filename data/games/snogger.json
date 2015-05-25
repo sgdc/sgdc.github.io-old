@@ -1,0 +1,7 @@
+{
+	"name": "Snogger",
+	"desc": "Snogger is a game made by James Romph, Alex Thieke, and others which brilliantly combines Snake and Frogger. Save your snake family in this exciting crossover between two classic arcade games!",
+	"devs": ["Alex Thieke", "James Romph", "Hope Brandes", "Tim Barbara"],
+	"event": "JAM Launch Title",
+	"img": "snogger.jpg"
+}

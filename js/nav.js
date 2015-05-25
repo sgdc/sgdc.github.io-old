@@ -27,7 +27,7 @@ $(document).ready(function() {
 		$("#myCarousel").carousel($(this).index());
 	});
 
-	var table = $(".row");
+	var table = $(".rig");
 	gameList = getGameList();
 	$.get('mustache/gamebox.mustache.html', function(template){
 		Mustache.parse(template);
@@ -44,18 +44,18 @@ $(document).ready(function() {
 			$(".modal-title").text(game.name);
 			$(".modal-body").html(Mustache.render(template, game));
 			if(game.download) {
-				$("#play-btn").removeClass('disabled', false);
+				$("#play-btn").removeClass('hide', false);
 				$("#play-btn").attr("href", game.download);
 			}
 			else {
-				$("#play-btn").addClass('disabled', true);
+				$("#play-btn").addClass('hide', true);
 			}
 			if(game.src) {
-				$("#src-btn").removeClass('disabled', false);
+				$("#src-btn").removeClass('hide', false);
 				$("#src-btn").attr("href", game.src);
 			}
 			else {
-				$("#src-btn").addClass('disabled', true);
+				$("#src-btn").addClass('hide', true);
 			}
 		});
 	});

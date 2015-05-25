@@ -1,0 +1,7 @@
+{
+	"name": "OPAF",
+	"desc": "OPAF is a Shower Thoughts Development fighting game and took 2nd Place in an SGDC Game Jam. Made in just 48-hours and later ported to the JAM, OPAF challenges you against your friends in a death match of over-powered spells to determine who is the best wizard!",
+	"devs": ["Brian Intile", "Kevin Quigley", "Adam Gincel", "Jordan Van Horsen", "Alex Massenzio"],
+	"event": "Fall 2014 GameJam I",
+	"img": "opaf.jpg"
+}
