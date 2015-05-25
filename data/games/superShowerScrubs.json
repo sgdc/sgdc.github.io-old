@@ -3,6 +3,6 @@
 	"desc": "Shower Scrubs is a prototype for a game that adapts mechanics from the popular game Super Smash Bros. to the Shower Thoughts Development universe. Made in just two days, choose from 6 characters and 5 maps each with their own unique music. Scrubs requires two controllers to play. Use D-Pad on menus and Smash controls in-game.",
 	"devs": ["Kevin Quigley"],
 	"event": "Spring 2015 GameJam III",
-	"img": "superShowerScrubs.jpg"
+	"img": "superShowerScrubs.jpg",
 	"download": "http://griffengames.blogspot.com/p/super-shower-scrubs.html"
 }
