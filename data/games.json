@@ -1,3 +1,15 @@
 {
-	"games": ["a-tempo", "freeze", "juliet", "magnemaze", "mate-for-life", "obj_char", "opaf", "ricochet", "shear-fear", "skyrunner", "snogger", "spherical-saunter", "temporal-rift"]
+	"games": ["a-tempo",
+			  "freeze",
+			  "juliet",
+			  "magnemaze",
+			  "mate-for-life",
+			  "obj_char",
+			  "opaf",
+			  "ricochet",
+			  "shear-fear",
+			  "skyrunner",
+			  "snogger",
+			  "spherical-saunter",
+			  "temporal-rift"]
 }
