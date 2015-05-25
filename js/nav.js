@@ -57,6 +57,34 @@ $(document).ready(function() {
 			else {
 				$("#src-btn").addClass('hide', true);
 			}
+			if(game.amazon) {
+				$("#amazon-btn").removeClass('hide', false);
+				$("#amazon-btn").attr("href", game.amazon);
+			}
+			else {
+				$("#amazon-btn").addClass('hide', true);
+			}
+			if(game.google) {
+				$("#google-btn").removeClass('hide', false);
+				$("#google-btn").attr("href", game.google);
+			}
+			else {
+				$("#google-btn").addClass('hide', true);
+			}
+			if(game.apple) {
+				$("#apple-btn").removeClass('hide', false);
+				$("#apple-btn").attr("href", game.apple);
+			}
+			else {
+				$("#apple-btn").addClass('hide', true);
+			}
+			if(game.steam) {
+				$("#steam-btn").removeClass('hide', false);
+				$("#steam-btn").attr("href", game.steam);
+			}
+			else {
+				$("#steam-btn").addClass('hide', true);
+			}
 		});
 	});
 
