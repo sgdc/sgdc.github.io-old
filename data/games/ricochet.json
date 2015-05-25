@@ -3,5 +3,6 @@
 	"desc": "Ricochet, by James Romph, is a 2D puzzle game and is the winner of the Hardest Gameplay award at the Games++ 2015 Game Jam! Test out the latest and greatest in atomic particle manipulation technology by completing the given training exercises.",
 	"devs": ["James Romph"],
 	"event": "Games++ 2015",
-	"img": "ricochet.jpg"
+	"img": "ricochet.jpg",
+	"download": "https://dl.dropboxusercontent.com/u/36650520/tehpilot/sgdc/g%2B%2B/ricochet-Default-1.0.0.2.exe"
 }
