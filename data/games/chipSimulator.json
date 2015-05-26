@@ -1,0 +1,8 @@
+{
+	"name": "Chip Simulator",
+	"desc": "This game was made over a number of hours with audience input given at SGDC's first Let's Make a Game, in Spring 2015. The game tasks you with collecting chips to raise your saltiness, among other things.",
+	"devs": ["Adam Gincel", "Kevin Quigley", "Jack Farzan", "Everybody Present at Let's Make a Game"],
+	"event": "Let's Make a Game 2015",
+	"img": "ChipSim.png",
+	"download": "http://1drv.ms/1Gwvcwm"
+}
