@@ -1,7 +1,8 @@
 {
 	"name": "Spherical Saunter",
+	"desc": "Spherical Saunter is a 3D Rolling Puzzle Platformer, inspired by games like Marble Mania, Super Monkey Ball, and Marble Madness. The game was a personal project that was adapted in time for the JAM's unveiling in Spring 2015. The first beta can be downloaded at the link provided.",
 	"devs": ["Adam Gincel"],
-	"event": "JAM Launch title",
+	"event": "JAM Launch Title",
 	"img": "SphericalS.PNG",
 	"download": "http://1drv.ms/1H48dWi"
 }
