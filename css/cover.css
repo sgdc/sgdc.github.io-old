@@ -215,6 +215,12 @@ ul.rig li h3 {
 	background: url("../img/escheresque_ste.png") repeat;
 }
 
+#third-slide {
+	overflow-y: scroll;
+	padding-top: 7%;
+	background: url("../img/escheresque_ste.png") repeat;
+}
+
 .game-txt {
 	color: black;
 	text-shadow: none;

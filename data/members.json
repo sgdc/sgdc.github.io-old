@@ -1,0 +1,13 @@
+{
+	"eboard": {
+		"president": "kevin_quigley",
+		"vice_president": "jason_gardella",
+		"treasurer": "adam_gincel",
+		"secretary": "alex_massenzio"
+	},
+	"minor_eboard": {
+		"alumni_rep" : "frank_dicola",
+		"cabinet_man": "brian_intile"
+	},
+	"general_members": []
+}

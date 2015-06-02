@@ -1,0 +1,20 @@
+ <div class="row">
+	<div class="col-md-3">
+		<a href="#">
+			<img class="img-responsive" src="img/{{picture}}" alt="Picture of {{name}}">
+		</a>
+	</div>
+	<div class="col-md-9">
+		<h3>{{name}}</h3>
+		<h4>{{class}}</h4>
+		<p><strong>Games:</strong></p>
+		<ul>
+			{{#games}}
+				<li>{{.}}</li>
+			{{/games}}
+		</ul>
+		<p><strong>Bio:</strong></p>
+		<p>{{bio}}</p>
+		<a class="btn btn-primary" href="{{site}}">Personal Site<span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+</div>
