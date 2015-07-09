@@ -1,8 +1,8 @@
 {
 	"name": "Kevin Quigley",
-	"class": "3/4",
+	"class": "4/4",
 	"picture": "kevin_quigley.jpg",
-	"games:": ["Magnemaze"],
+	"games": ["Magnemaze"],
 	"bio": "I am Kevin.",
-	"site": "https://github.com/hydegriffen"
+	"site": "www.hydegriffen.com"
 }
